@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/primaryDark"
+    tools:context=".views.Splash">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:text="Journey Journal"
+        android:textStyle="bold"
+        android:fontFamily="@font/jost_regular"
+        android:layout_gravity="center"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:lottie_rawRes="@raw/file"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qoutes"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/satisfy_regular"
+        android:textSize="12sp"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

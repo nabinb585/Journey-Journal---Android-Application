@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/primaryDark"
+    tools:context=".views.About">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/jost_regular"
+        android:text="About Journey Journal"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Journey Journal is a free offline note app which enables users to record activities, experiences, thoughts, and ideas throughout the days of journey. It perfect for you journalers and diary writers out there to preserve and cherish your memories. Our Mission at Journey Journal app is to provide a platform that allows you to do just that in the simplest way possible. Simple doesn't mean making our job easier. Rather, we want to make things easier for you and allow you to make diary entries in any way you want. You can type with digital assistance. In the future, you will be able to make handwritten entries just like you would on paper. In short, we want you to have the best journalling experience!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_below="@id/text2"
+            android:fontFamily="@font/poppins_light"
+            android:text="Journey Journal is currently available on Andriod. Journal Entries created will be synced across multiple devices without requiring any traditional backup and restoration. We aim to continuously improve your journal experience by consistently adding new features without compromising on simplicity."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_below="@id/text5"
+            android:fontFamily="@font/poppins_light"
+            android:text="Never miss a beautiful memory with Journey Journal."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        android:layout_below="@id/text6"
+        app:lottie_loop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:lottie_rawRes="@raw/file"
+        />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/jost_regular"
+        android:text="Copyright © Journey Journal 2022"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/imagePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColorHint"
+        app:itemIconSize="20dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        app:itemRippleColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_navigation">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

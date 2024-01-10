@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Journey Journal</string>
+    <string name="mail">Email</string>
+    <string name="pwd">Password</string>
+    <string name="qoutes">We dont know the value of moments until they becomes memories</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Full Name</string>
+    <string name="reType">Re - Type Password</string>
+    <string name="signUp">Sign Up</string>
+    <string name="alreadyAccount">Already have an account?</string>
+    <string name="login">Log in</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="btnLogIn">Sign In</string>
+    <string name="dontAccount">New to here?</string>
+    <string name="register">Register</string>
+
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="btnLoginPage">Log in with Journal Account</string>
+    <string name="my_notes">Journal Entries</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="search_notes">search journal</string>
+    <string name="select">Select</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_link">Add Link</string>
+    <string name="add_links">Add Links</string>
+    <string name="add">ADD</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete">Delete</string>
+    <string name="delete_notes">Delete Notes</string>
+    <string name="are_you_sure_you_want_to_delete">Are you sure you want to delete?</string>
+    <string name="deletemessage">DELETE</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to Sign out?</string>
+    <string name="log_out">Sign Out</string>
+
+
+</resources>
